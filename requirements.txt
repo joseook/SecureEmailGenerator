@@ -1,0 +1,4 @@
+[library]
+requests==2.31.0
+cryptography==41.0.4
+tk==0.1.0
