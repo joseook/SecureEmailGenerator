@@ -1,13 +1,13 @@
-# Gerador e Verificador de E-mails
+# Email Generator and Verifier
 
-Este projeto é uma ferramenta de Gerador e Verificador de E-mails desenvolvida em Python. Ele permite criar e verificar endereços de e-mail automaticamente, com a capacidade de usar e-mails temporários e criptografar os dados, se necessário.
+This project is an Email Generator and Verifier tool developed in Python. It allows for the automated generation and verification of email addresses, with the ability to use temporary emails and encrypt data if needed.
 
-## Requisitos
+## Requirements
 
 - Python 3.x
-- Bibliotecas: `requests`, `cryptography`, `tkinter`
+- Libraries: `requests`, `cryptography`, `tkinter`
 
-## Estrutura do Projeto
+## Project Structure
 
 ```
 source/
@@ -41,44 +41,48 @@ source/
 ├── main.py
 ```
 
-## Como Usar
+## How to Use
 
-1. **Instalando Dependências**:
-   Certifique-se de que todas as bibliotecas necessárias estejam instaladas executando o seguinte comando na pasta raiz do projeto:
+1. **Installing Dependencies**:
+   Ensure that all the necessary libraries are installed by running the following command in the project's root directory:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-2. **Iniciando o Projeto**:
+2. **Starting the Project**:
 
-   Para iniciar o projeto, execute o seguinte comando na pasta raiz do projeto:
+   To initiate the project, run the following command in the project's root directory:
 
    ```bash
    python main.py
    ```
 
-   Isso abrirá uma interface de linha de comando onde você poderá escolher entre a interface gráfica (GUI) ou a geração e verificação de e-mails avançada.
+   This will open a command-line interface where you can choose between the Graphical User Interface (GUI) or advanced email generation and verification.
 
-3. **Interface Gráfica (GUI)**:
+3. **Graphical User Interface (GUI)**:
 
-   - Escolha a opção "Iniciar a interface gráfica (GUI)" no menu.
-   - A interface gráfica permitirá gerar e exibir e-mails e senhas aleatórios.
-   - Você pode copiar as senhas geradas clicando no botão "Copy" e salvá-las em um arquivo de texto usando o botão "Download Data".
+   - Choose the "Start the graphical interface (GUI)" option from the menu.
+   - The graphical interface will allow you to generate and display random emails and passwords.
+   - You can copy the generated passwords by clicking the "Copy" button and save them to a text file using the "Download Data" button.
 
-4. **Geração e Verificação de E-mails Avançada**:
+4. **Advanced Email Generation and Verification**:
 
-   - Escolha a opção "Gerar e verificar e-mails (opção avançada)" no menu.
-   - Siga as instruções para especificar a quantidade de e-mails a serem gerados, se deseja usar e-mails temporários e se deseja criptografar os dados.
+   - Choose the "Generate and verify emails (advanced option)" from the menu.
+   - Follow the instructions to specify the number of emails to generate, whether to use temporary emails, and whether to encrypt the data.
 
-## Feedback do Usuário
+## User Feedback
 
-O projeto permite aos usuários fornecer feedback sobre as recomendações, contribuindo para a melhoria contínua do sistema. O feedback é armazenado em um formato estruturado em um banco de dados para análises futuras.
+The project allows users to provide feedback on recommendations, contributing to continuous system improvement. Feedback is stored in a structured format in a database for future analysis.
 
-## Considerações Finais
+## Final Thoughts
 
-Este projeto oferece uma base sólida e flexível para o desenvolvimento de sistemas de recomendação de alta qualidade. Você pode personalizar e expandir o sistema adicionando recursos adicionais e ajustando modelos de recomendação conforme necessário.
+This project provides a solid and flexible foundation for developing high-quality recommendation systems. You can customize and expand the system by adding additional features and fine-tuning recommendation models as needed.
 
-Aproveite a geração e verificação de e-mails com o Gerador e Verificador de E-mails!
+Enjoy email generation and verification with the Email Generator and Verifier!
 
-**Observações**: Certifique-se de que os dados necessários, como arquivos CSV e modelos de criptografia, estejam presentes nas pastas apropriadas antes de executar o sistema. Além disso, verifique se os ambientes virtuais Python (venv) estão configurados corretamente para evitar conflitos de dependência.
+## Notes: 
+
+Ensure that the required data, such as CSV files and encryption models, are present in the appropriate folders before running the system. Additionally, make sure Python virtual environments (venv) are set up correctly to avoid dependency conflicts.
+
+---
